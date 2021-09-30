@@ -18,7 +18,7 @@ while iterator <= 1001:
                 last -= 1
             else:
                 x = a[last]
-                y = iterator - (last -1)
+                y = iterator - last
                 a.append(y)
                 print(y)
             l

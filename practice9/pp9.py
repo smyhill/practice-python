@@ -20,10 +20,9 @@ def game_loop():
 
     print("You Guessed Correctly! The random number was " + str(ran_num) + " and it took you only " + str(counter) + " tries!")
 
-game_loop()
-
 yn = "Y"
-while yn == "Y":
+while yn == "Y" or "y":
     game_loop()
     yn = input('Would you like to play again? Y/N: ')
+
 print("Thank you for playing, goodbye")
